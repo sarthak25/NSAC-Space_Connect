@@ -10,6 +10,12 @@ var path = require('path');
 // var passport = require('passport');
 // var db = require('./modules/db')(mongoose);
 
+// adding passport modules
+
+var mongoose = require('mongoose');
+var passport = require('passport');
+var db = require('./modules/db')(mongoose);
+
 // Express middleware
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
