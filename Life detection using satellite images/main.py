@@ -40,8 +40,9 @@ def calculate_area(res):
         :tot_area_acre_land: empty area in acres.
         :trees: rounded number of trees in the possible area.
     """
-    # print(res.shape) # (640, 622, 3)
-    # print(np.count_nonzero(res)) # 679089
+    # printing output
+    print(res.shape) # (640, 622, 3)
+    print(np.count_nonzero(res)) # 679089
 
     # print("number of pixels", res.size//3)
     tot_pixels = res.size//3
